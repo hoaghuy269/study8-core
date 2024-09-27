@@ -11,5 +11,5 @@ import lombok.NoArgsConstructor;
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CoreConstant {
-    public static final String MESSAGES = "messages";
+    public static final String MESSAGES = "messages_core";
 }
