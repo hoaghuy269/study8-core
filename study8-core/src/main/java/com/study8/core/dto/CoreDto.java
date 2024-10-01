@@ -21,6 +21,8 @@ public class CoreDto {
     private LocalDateTime createdDate;
     private Long createdId;
     private Integer deleted;
+    private LocalDateTime updatedDate;
+    private Long updatedId;
     private LocalDateTime deletedDate;
     private Long deletedId;
 }

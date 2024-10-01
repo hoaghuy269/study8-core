@@ -25,6 +25,12 @@ public class CoreEntity {
     @Column(name = "created_id")
     private Long createdId;
 
+    @Column(name = "updated_date")
+    private LocalDateTime updatedDate;
+
+    @Column(name = "updated_id")
+    private Long updatedId;
+
     @Column(name = "deleted")
     private Integer deleted;
 
